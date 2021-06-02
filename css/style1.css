@@ -131,7 +131,23 @@ button1:active{
 .navigation li a:active{
     border-bottom: 2px solid #3498db
 }
-
+.sticky{
+position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255 , 255 , 0.8);
+    box-shadow: 0 2px 2px #c4c1c1;
+    z-index: 9999;
+}
+.navigatin{
+    margin-top: 1px;
+}
+.sticky .navigation li a:link,
+.sticky .navigation li a:visited{
+   padding: 5px 0;
+    color: #555;
+}
 a:link,
 a:visited{
     text-decoration: none;
